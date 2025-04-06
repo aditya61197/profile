@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aditya Kumar - Resume</title>
+  <style>
+    :root {
+      --primary-color: #004080;
+      --highlight-bg: #e0efff;
+      --number-highlight: #1a73e8;
+      --tech-highlight: #0056b3;
+      --bg-color: #ffffff;
+      --text-color: #000000;
+    }
+
+    body.dark-mode {
+      --primary-color: #66aaff;
+      --highlight-bg: #1a1a1a;
+      --number-highlight: #4da6ff;
+      --tech-highlight: #3399ff;
+      --bg-color: #121212;
+      --text-color: #f0f0f0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      color: var(--primary-color);
+    }
+
+    hr {
+      border: 1px solid #ccc;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .subsection {
+      margin-bottom: 15px;
+    }
+
+    .highlight-number {
+      color: var(--number-highlight);
+      font-weight: bold;
+    }
+
+    .highlight-tech {
+      color: var(--tech-highlight);
+      font-weight: bold;
+    }
+
+    .top-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .no-print {
+      display: inline-block;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    button {
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: var(--tech-highlight);
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="top-buttons no-print">
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <button onclick="window.print()">Download PDF</button>
+  </div>
+
+  <h1>Aditya Kumar</h1>
+  <p>
+    📞 <span class="highlight-number">7320852790</span><br>
+    📧 <a href="mailto:aditya.kumar61197@gmail.com">aditya.kumar61197@gmail.com</a><br>
+    🔗 <a href="https://www.linkedin.com/in/aditya-kumar-014361196">LinkedIn</a> |
+    🧑‍💻 <a href="https://github.com/aditya61197">GitHub</a>
+  </p>
+
+  <div class="section">
+    <h2>Professional Summary</h2>
+    <p>
+      Software Developer with over <span class="highlight-number">3.5 years</span> of experience in enterprise application development. Skilled in <span class="highlight-tech">Java</span>, <span class="highlight-tech">Spring Boot</span>, <span class="highlight-tech">REST APIs</span>, and <span class="highlight-tech">Struts</span> framework. Experienced in database optimization, server upgrades, and microservices architecture. Passionate about clean code, scalable solutions, and Agile methodology.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Work Experience</h2>
+    <div class="subsection">
+      <h3>Senior Software Developer — G.S. & Co. Pvt. Ltd. (GSPL), New Delhi</h3>
+      <p><strong>April 2024 – Present</strong></p>
+      <ul>
+        <li>Leading enhancements and maintenance for <strong>Service Management Systems (SMS)</strong> for clients like <strong>Carrier Care Net</strong>, <strong>Casio (Worldwide)</strong>, <strong>Carrier Midea India</strong>, <strong>Godfrey Phillips</strong>, and <strong>Midea Toshiba (Impact SMS)</strong>.</li>
+        <li>Working with <span class="highlight-tech">Java</span>, <span class="highlight-tech">Spring Boot</span>, <span class="highlight-tech">Struts 1.3</span>, <span class="highlight-tech">PostgreSQL</span>, and <span class="highlight-tech">JSP/Servlets</span>.</li>
+        <li>Upgraded <span class="highlight-tech">PostgreSQL</span> from <span class="highlight-number">v12</span> to <span class="highlight-number">v16</span>, adjusting queries and drivers project-wide for compatibility and enhanced performance.</li>
+        <li>Performed server upgrades from <span class="highlight-tech">Tomcat 10.0</span> → <span class="highlight-tech">10.1.39</span> and <span class="highlight-tech">Java 8</span> → <span class="highlight-tech">Java 17</span>, resolving dependency conflicts.</li>
+        <li>Boosted database performance by <span class="highlight-number">53.7%</span> through advanced indexing strategies.</li>
+        <li>Implemented clean code practices and optimized I/O bound operations to use <span class="highlight-number">23%</span> fewer resources.</li>
+        <li>Reduced overall bug frequency by <span class="highlight-number">35%</span> with a <span class="highlight-number">5-month</span> streak of zero critical issues.</li>
+        <li><strong>Tech:</strong> Java, Spring Boot, Struts, PostgreSQL, GitLab, Tomcat, MQTT</li>
+      </ul>
+    </div>
+
+    <div class="subsection">
+      <h3>Java Developer — G.S. & Co. Pvt. Ltd. (GSPL), New Delhi</h3>
+      <p><strong>Nov 2021 – April 2024</strong></p>
+      <ul>
+        <li>Developed enterprise applications using <span class="highlight-tech">Java</span>, <span class="highlight-tech">Struts</span>, and <span class="highlight-tech">Spring Boot</span>.</li>
+        <li>Built and integrated <span class="highlight-tech">REST APIs</span> for seamless frontend-backend communication.</li>
+        <li>Improved CI/CD deployment efficiency by <span class="highlight-number">40%</span> using <span class="highlight-tech">GitLab</span> automation.</li>
+        <li>Optimized queries and indexing in <span class="highlight-tech">PostgreSQL</span> for performance.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B. Tech</strong> - Dr. B.C. Roy Engineering College (MAKAUT) – <span class="highlight-number">6.89 DGPA</span> (2019)</li>
+      <li><strong>12th (CBSE)</strong> – Tata D.A.V Public School, Dhanbad – <span class="highlight-number">68.9%</span> (2015)</li>
+      <li><strong>10th (CBSE)</strong> – Tata D.A.V Public School, Dhanbad – <span class="highlight-number">7.8 CGPA</span> (2013)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Journey Forge</strong> – Microservices-based career platform built using <span class="highlight-tech">Angular</span>, <span class="highlight-tech">Spring Boot</span>, <span class="highlight-tech">MongoDB</span>, <span class="highlight-tech">Neo4j</span>. GitLab used for DevOps.</li>
+      <li><strong>Online Hotel Booking System</strong> – Java-based system with <span class="highlight-tech">MySQL</span>, <span class="highlight-tech">HTML/CSS</span>, and JSPs.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li><strong>Full Stack Product Engineering</strong> – NIIT (StackRoute) – <span class="highlight-number">27 weeks</span> (Feb–Sep 2021)</li>
+      <li><strong>DOTNET C#</strong> – Globsyn – <span class="highlight-number">4 weeks</span></li>
+      <li><strong>Ethical Hacking Expert</strong> – TechDefence – <span class="highlight-number">2 days</span></li>
+      <li><strong>Introduction to Networks</strong> – Universidad de Jaen – <span class="highlight-number">2 days</span></li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Java, JavaScript, TypeScript, HTML, CSS</li>
+      <li><strong>Frameworks:</strong> Struts 1.3, Spring Boot, Angular, React, Next.js</li>
+      <li><strong>Architecture:</strong> Microservices, MVC</li>
+      <li><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Neo4j</li>
+      <li><strong>ORM/Tools:</strong> Hibernate, JDBC, Prisma</li>
+      <li><strong>DevOps:</strong> GitHub, GitLab, Docker, Maven</li>
+      <li><strong>Other:</strong> Tomcat (8.5–10.1.39), MQTT, CI/CD, Agile</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Strengths</h2>
+    <ul>
+      <li>Strong team player with leadership and time management skills</li>
+      <li>Quick problem solver and self-learner</li>
+      <li>Experienced in Agile methodology and code reviews</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Interests</h2>
+    <ul>
+      <li>Coding & Exploring Technologies</li>
+      <li>Football</li>
+      <li>Cooking</li>
+      <li>Listening to Music</li>
+    </ul>
+  </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+
+</body>
+</html>
